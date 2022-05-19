@@ -1,5 +1,7 @@
 import React from 'react';
 import Banner from './Banner';
+import Contact from './Contact';
+import Footer from './Footer';
 import Info from './Info';
 import MakeAppointment from './MakeAppointment';
 import Services from './Services';
@@ -9,12 +11,12 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <br />
             <Info></Info>
-            <br />
             <Services></Services>
             <MakeAppointment></MakeAppointment>
             <Testimonial></Testimonial>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
